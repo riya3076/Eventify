@@ -1,0 +1,40 @@
+{
+  "name": "server-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "build-start": "node dist/index.js",
+    "start": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-list-endpoints": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.4.0",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "pdfkit": "^0.15.0",
+    "stripe": "^14.22.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/express-list-endpoints": "^6.0.3",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/nodemailer": "^6.4.14",
+    "@types/pdfkit": "^0.13.4",
+    "mongoose": "^8.2.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.2"
+  }
+}
